@@ -11,7 +11,7 @@
                 </select>
                 <input v-model="password" type="password" id="password" name="password" placeholder="Enter your password">
             
-                <input type="submit" value="Submit" @click="handleSubmit"/>
+                <input type="submit" value="login" @click="handleSubmit"/>
             </form>
         </div>
     </div>
